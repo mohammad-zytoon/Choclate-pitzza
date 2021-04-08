@@ -1,0 +1,157 @@
+
+
+header{
+
+    /* display: inline-block; */
+ 
+}
+
+.first h1{
+
+
+    font-family: cursive;
+
+    float:right;
+
+  margin-right: 1150px;
+  margin-bottom: 60px;
+
+  
+}
+
+.first img{
+
+    margin-top: 60px;
+
+}
+
+.first b{
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.first img{
+
+    margin-top: 90px;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-right: 700px;
+}
+
+.choco h3{
+    text-align: center;
+    color: gray;
+    margin-right: 700px;
+    font-size: 15px;
+
+}
+
+.choco img{
+
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 50px;
+ 
+}
+
+.pizz{
+    text-align: center;
+}
+
+.pizz p{
+    width: 50%;
+    text-align: center;
+text-align: justify;
+margin-left: 300px;
+font-size: 20px;
+
+}
+
+.box{
+    font-size: 20px;
+text-align: center;
+    background-image: url(img/list-bg.png); height: 200px; width: 75%;
+
+    margin-left: 175px;
+}
+
+#box1{
+    margin-left: 15px;
+    float: left;
+
+}
+
+#box2{
+
+    float:left;
+    width: 45%;
+    margin-left: 200px;
+}
+
+.bio{
+
+    margin-left: 150px;
+}
+
+.bio p{
+
+    width: 100%;
+
+}
+
+.bio h5{
+
+    float: right;
+    font-size: 20px;
+    margin-right: 1100px;
+    margin-bottom: 50px;
+}
+
+.bio p{
+
+    
+
+}
+
+.bio button{
+
+    float: right;
+    
+    color: white;
+    background-color: rgb(255, 99, 71);
+    font-size: 20px;
+    border: 70px;
+    margin-bottom: 50px;
+}
+
+footer{
+
+    text-align: center;
+}
+
+footer img{
+
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+
+
+header h2{
+
+    font-size: 15px;
+}
+
+
+
+#logo{
+
+    float: right;
+}
