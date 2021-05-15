@@ -1,157 +1,164 @@
-
-
-header{
-
-    /* display: inline-block; */
- 
+#logo{
+    width: 30%;
+    height: 42px;
+    position: absolute;
+    top: 4%;
+    left: 14.5%;
 }
 
-.first h1{
-
-
-    font-family: cursive;
-
-    float:right;
-
-  margin-right: 1150px;
-  margin-bottom: 60px;
-
-  
+#logo p {
+    color: grey;
+    font-size: 1px ;
+}
+body{
+    margin: 2% 10%;
+}
+#icons{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+h1{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+nav{
+    margin-bottom: 35px;
+}
+#logo p {
+    margin: 0;
+    font-size:small ;
+}
+#rss{
+    margin-left: 10px;
 }
 
-.first img{
-
-    margin-top: 60px;
-
+.img-hr{
+    background-image:url(/img/hr-img.png);
+    background-repeat: repeat;
+    height:20px;
+    border: 0;
+    margin: 0;
 }
-
-.first b{
-    font-family: cursive;
-    font-size: 30px;
-    margin-bottom: 70px;
-}
-
-.first img{
-
-    margin-top: 90px;
-   
-}
-
 h2{
-    text-align: center;
-    font-size: 30px;
-    font-family: cursive;
-    font-weight: bold;
-    margin-right: 700px;
+    font-size: 42px;
+    margin: 50px 0 0 5px;
 }
 
-.choco h3{
-    text-align: center;
-    color: gray;
-    margin-right: 700px;
+#posted{
+    margin: 0px 0 0 10px;
+    color: grey;
     font-size: 15px;
-
 }
 
-.choco img{
-
-    float: right;
-    margin-left: 50px;
-    margin-bottom: 50px;
- 
+#print{
+    width: 2%;
+    position: relative;
+    left: 95%;
+    bottom: 30px;
 }
-
-.pizz{
-    text-align: center;
-}
-
-.pizz p{
-    width: 50%;
-    text-align: center;
-text-align: justify;
-margin-left: 300px;
-font-size: 20px;
-
-}
-
-.box{
-    font-size: 20px;
-text-align: center;
-    background-image: url(img/list-bg.png); height: 200px; width: 75%;
-
-    margin-left: 175px;
-}
-
-#box1{
-    margin-left: 15px;
+#print img{
     float: left;
-
+}
+#print p {
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+    color: grey;
 }
 
-#box2{
-
-    float:left;
-    width: 45%;
-    margin-left: 200px;
-}
-
-.bio{
-
-    margin-left: 150px;
-}
-
-.bio p{
-
+#big-picture{
     width: 100%;
-
 }
 
-.bio h5{
+.text{
+    text-indent: 3%;
+    color: grey;
+    font-size: large;
+}
 
-    float: right;
+#list{
+    width: 100%;
+}
+
+#ing-1{
+    width: 20%;
+    position: relative;
+    bottom: 65px;
+    left: 330px;
+    line-height: 1.8;
     font-size: 20px;
-    margin-right: 1100px;
-    margin-bottom: 50px;
+    font-weight: 900;
 }
-
-.bio p{
-
-    
-
-}
-
-.bio button{
-
-    float: right;
-    
-    color: white;
-    background-color: rgb(255, 99, 71);
+#ing-2{
+    width: 20%;
+    position: relative;
+    bottom: 280px;
+    left: 850px;
+    line-height:1.8;
     font-size: 20px;
-    border: 70px;
-    margin-bottom: 50px;
+    font-weight: 900;
+}
+#profile{
+    height: 60px;
+}
+#profile img{
+    float: left;
+}
+
+#profile p {
+    width: 50%;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+#profile a {
+    float: right;
+    position: relative;
+    bottom: 80px;
+    color: ivory;
+    text-align: center;
+    background-color: #bc7058;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
+#profile h3{
+    margin-left: 100px;
+    color: grey;
+}
+hr{
+    clear:both ;
 }
 
 footer{
-
+    clear: both;
     text-align: center;
 }
 
-footer img{
-
-    margin-bottom: 50px;
-    margin-left: 50px;
+form{
+    margin: -230px;
+    font-family: 'Indie Flower', cursive;
+    color: #d0af84;
 }
 
-
-
-header h2{
-
-    font-size: 15px;
+#small-logo{
+    position: relative;
+    left: 50%;
+    bottom: 45%;
 }
-
-
-
-#logo{
-
-    float: right;
+h2 , h3 {
+font-family: 'Bebas Neue', cursive;
+    
+}
+p{color: grey;}
+footer p{
+    color: lightgray;
+}
+input
+{
+    background: grey;
 }

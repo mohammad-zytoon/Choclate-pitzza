@@ -1,121 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chocolate pizza</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="first">
-        
-        <div id="logo"> <img src="img/fb-icon.png" >
-            <img src="img/twit-icon.png" >
-            <img src="img/gp-icon.png" >
-            <img src="img/insta-icon.png" >
-            <img src="img/flic-icon.png" >
-            <img src="img/pint-icon.png" >
-            <b></b>
-            <img src="img/rss-icon.png" >
-            <img src="img/mail-icon.png" >
-        </div>
-        <!-- <h1>  </h1> -->
-        <img src="img/logo.png" ><b>Delicious</b>
-        
-
-        
-
-       
-
+    <header>
+        <nav>
+            <img src="img/logo.png" alt="">
+            <div id="logo">
+                <h1>Delicious</h1>
+                <p>THE BEST FOOD BLOG ON THE WEB.</p>
+            </div>
+            <div id="icons">
+                <img src="img/fb-icon.png" alt="">
+                <img src="img/twit-icon.png" alt="">
+                <img src="img/gp-icon.png" alt="">
+                <img src="img/insta-icon.png" alt="">
+                <img src="img/flic-icon.png" alt="">
+                <img src="img/pint-icon.png" alt="">
+                <img src="img/rss-icon.png" alt="" id="rss">
+                <img src="img/mail-icon.png" alt="">
+            </div>
+        </nav>
+        <hr class="img-hr">
     </header>
     <main>
-        <section class="choco">
-    <h2>
-        Chocolate Pizza 
-    </h2>
-    <h3>POSTED ON 15 DEC 2013/DESERTS</h3>
+        <div id="header-div">
+            <h2>
+                Chocolate Pizza
+            </h2>
+            <p id="posted">
+                POSTED ON 15 DEC 2013 / DESSERTS
+            </p>
+            <div id="print">
+                <img src="img/print-icon.png" alt="">
+                <p>PRINT</p>
+            </div>
+        </div>
+        <img src="img/choco-pizza.png" alt="" id="big-picture">
+        <p class="text">For the fig-swirl: Melt butter over medium heat in saucepan. Add brown sugar and stir to
+            dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat,
+            stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and
+            let cool completely.
 
-     <img src="img/print-icon.png" >
-</section>
-<section class="pizz">
-    <img src="img/choco-pizza.png" >
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque porro, fugit aliquam blanditiis 
-        quidem nostrum in assumenda rem maxime qui hic quaerat nesciunt ab veritatis ex veniam dolores officiis dolorum.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias adipisci veniam cupiditate sed itaque seq
-         error tempore eligendi ut distinctio repudiandae, asperiores debitis quasi mollitia voluptatum voluptatem ab deleniti
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae harum vitae sapiente tempore ex ullam quia exercitationem
-          dignissimos, accusamus nobis adipisci, ratione odit provident modi necessitatibus! Illum nemo eos accusantium?
-    </p>
+        </p>
+        <p class="text">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is
+            completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge
+            and wait until the fig mixture is cooled.</p>
+        <p class="text">Using an ice cream machine, pour liquids into the frozen basin and process according to
+            manufacturer instructions, i.e., let spin and thickenfor 20 minutes before adding mascarpone, fig jam
+            mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or
+            glass tupperware. Freeze for at least two hours before serving.</p>
 
-    
-</section>
-<section class="box">
-    <div id="box1">
-        <ul>
-        <li><input type="checkbox" name="1/2 cups milk" id="1/2 cups milk">
-            <label for="">1/2 cups milk</label> </li>
-        <li><input type="checkbox" name="1/2 cup masacarpone" id="1/2 cup masacarpone"> 
-            <label for="">1/2 cup masacarpone</label> </li>
-        <li><input type="checkbox" name="1/2 tsp pink salt" id="1/2 tsp pink salt"> 
-            <label for="">1/2 tsp pink salt</label></li>
-        <li> <input type="checkbox" name="1lb Black Mission Figs" id="11lb Black Mission Figs"> 
-            <label for="">1lb Black Mission Figs</label> </li>
-        <li><input type="checkbox" name="1/2 cup brown sugar" id="1/2 cup brown sugar"> 
-            <label for="">1/2 cup brown sugar</label> </li>
-        <li> <input type="checkbox" name="2-4 tbsp water" id="1/2-4 tbsp water"> 
-            <label for="">2-4 tbsp water</label></li>
-        </ul>
-        
+        <img src="img/list-bg.png" alt="" id="list">
+        <form action="" id="form">
+            <div id="ing-1">
+                <input type="checkbox" class="checkbox">
+                <label for="">1 1/2 cups milk</label><br>
+                <input type="checkbox">
+                <label for="">1/2 cup mascarpone</label><br>
+                <input type="checkbox">
+                <label for="">1/2 tsp pink salt</label><br>
+                <input type="checkbox">
+                <label for="">1 lb Black Mission Figs</label><br>
+                <input type="checkbox">
+                <label for="">1/2 cup brown sugar</label><br>
+                <input type="checkbox">
+                <label for="">2-4 tbsp water</label><br>
+            </div>
+            <div id="ing-2">
+                <input type="checkbox">
+                <label for="">1 1/2 cups heavy cream</label><br>
+                <input type="checkbox">
+                <label for="">1/3 granulated sugar</label><br>
+                <input type="checkbox">
+                <label for="">2 egg yolks</label><br>
+                <input type="checkbox">
+                <label for="">1 lemon, juiced</label><br>
+                <input type="checkbox">
+                <label for="">2 tbsp butter</label><br>
+                <input type="checkbox">
+                <label for="">1 cup honey roasted pecans, roughly chopped</label><br>
+            </div>
+        </form>
 
-    </div>
-        <div id="box2">
+        <hr class="img-hr">
+        <div id="profile">
+            <img src="img/van-pic.png" alt="">
+            <h3>Vanessa Stevenson</h3>
+            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>
+            <a href="#">SHARE RECIPE</a>
+            <hr id="normal-hr">
+            <img src="img/small-logo.png" alt="" id="small-logo">
 
-            <ul>
-            <li><input type="checkbox" name="11/2 cups heavy cream" id="11/2 cups heavy cream"> 
-                <label for="">11/2 cups heavy cream</label></li>
-            <li><input type="checkbox" name="1/3 granulated sugar" id="1/3 granulated sugar"> 
-                <label for="">1/3 granulated sugar</label></li>
-            <li><input type="checkbox" name="2 egg yolks" id="2 egg yolks"> 
-                <label for="">2 egg yolks</label> </li>
-            <li><input type="checkbox" name="1 lemon, juiced" id="1 lemon, juiced"> 
-                <label for="">1 lemon, juiced</label> </li>
-            <li> <input type="checkbox" name="2 tbsp butter" id="2 tbsp butter"> 
-                <label for="">2 tbsp butter</label></li>
-            <li><input type="checkbox" name="1 cup honey roasted pecans, roughly chopped" id="1 cup honey roasted pecans, roughly chopped"> 
-                <label for="">1 cup honey roasted pecans, roughly chopped</label> </li>
+        </div>
+    </main>
+    <footer>
+        <p>Delicious &copy; 2013 &#10244; All Rights Reserved. <br>
+            Proudly published with Ghost.</p>
+    </footer>
+    <script src="js/app.js">
 
-            </ul>
-        
-    </div>
-
-</section>
-<section class="bio">
-    <h4>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</h4>
-   <b></b>
-    <img src="img/van-pic.png" >
-    
-    
-       <h5>
-           Vanessa Stevenson
-       </h5> 
-       <button >
-        SHARE RECIPE
-            </button>
-       
-      <p>  sit amet consectetur adipisicing elit. Veniam harum reiciendis, dolores nisi earum quos hic vero molestiae assumenda doloribus sed cumque facere? Dolores, iste officia? Ex iste ipsa dolore.
-    </p>
-   
-</section>
-<b>_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</b>
-
-<footer>
-    <img src="img/small-logo.png" >
-
-  <p>Dellicious &copy; 2013 . ALL Right Reserved <br> Proudly Published With Ghost.</p>  
-</footer>
-</main>
-
+    </script>
 </body>
+
 </html>
